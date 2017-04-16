@@ -1,0 +1,19 @@
+{
+  "name": "ucrx",
+  "version": "1.0.3",
+  "description": "unzip chrome extensition .crx file.",
+  "main": "index.js",
+  "keywords": ["chrome", "extensition", "crx", "unzip"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ucrx": "index.js"  
+  },
+  "preferGlobal": "true",
+  "author": "suhaotian",
+  "license": "MIT",
+  "dependencies": {
+    "unzip-crx": "^0.2.0"
+  }
+}
