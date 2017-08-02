@@ -6,6 +6,7 @@ if (!process.argv[2]) {
     console.log('e.g: ucrx filename.crx')
     return
 }
+
 unzip_crx(process.argv[2]).then(function(){
     console.log('Successfully unzipped your crx file.')
 })
